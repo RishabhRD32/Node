@@ -1,2 +1,2 @@
 # Spotify Clone 
-It is practice purpose project of spotify clone made only using spotify clone.
+It is practice purpose project of spotify clone made only using html and css.
