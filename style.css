@@ -358,9 +358,7 @@ span{
         justify-content: center;
         align-items: center;
     }
-    .music-player{
-        /* padding: 10px; */
-    }.main-content{
+    .main-content{
         padding: 0px 20px;
     }
     .range{
