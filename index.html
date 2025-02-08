@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assests/logo.png">
     <title> Spotify - Web Player: Music for everyone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <div class="sidebar">
@@ -27,139 +33,143 @@
             <div class="library">
                 <div class="options">
                     <div class="lab-options">
-                    <img src="./assests/library_icon.png">
-                    <a href="#">Your library</a>
+                        <img alt="img" src="./assests/library_icon.png">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
                 </div>
-                <div class="icons">
-                    <i class="fa-solid fa-plus"></i>
-                    <i class="fa-solid fa-arrow-right"></i>
+                <div class="lib-box">
+                    <div class="box alter">
+                        <p class="box-p1">
+                            create your first playlist
+                        </p>
+                        <p class="box-p2">It's easy,We'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">
+                            Let's find you updated padcasts on new episodes
+                        </p>
+                        <p class="box-p2">we'll keep you updatedon new episodes</p>
+                        <button class="badge">Browse podcasts here</button>
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 </div>
             </div>
-            <div class="lib-box">
-                <div class="box alter">
-                <p class="box-p1">
-                    create your first playlist
-                </p>
-                <p class="box-p2">It's easy,We'll help you</p>
-                <button class="badge">Create playlist</button>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="stick-nav-img">
+                    <img alt="img" src="./assests/backward_icon.png">
+                    <img alt="img" src="./assests/forward_icon.png" class="hide">
+                </div>
+                <div class="user">
+                    <button class="badge hide">
+                        Explore Premium
+                    </button>
+                    <button class="badge dark"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>install</button>
+                    <i class="fa-regular fa-user" style="cursor: pointer;"></i>
+                </div>
             </div>
-            <div class="box">
-                <p class="box-p1">
-                    Let's find you updated padcasts on new episodes
-                </p>
-                <p class="box-p2">we'll keep you updatedon new episodes</p>
-                <button class="badge">Browse podcasts here</button>
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img alt="img" src="./assests/card1img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
             </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2>Trending Near You</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img alt="img" src="./assests/card2img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card3img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card4img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card3img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card4img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card4img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+            </div>
+            <h2>Most featured</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img alt="img" src="./assests/card5img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card6img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card1img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+                <div class="card">
+                    <img alt="img" src="./assests/card6img.jpeg">
+                    <p class="name">Top Global</p>
+                    <p class="intro">Your daily Update of the most played..</p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="line"></div>
             </div>
         </div>
-    </div>
-    <div class="main-content">
-       <div class="sticky-nav">
-        <div class="stick-nav-img">
-             <img src="./assests/backward_icon.png">
-             <img src="./assests/forward_icon.png" class="hide">
-        </div>
-        <div class="user">
-            <button class="badge hide">
-                Explore Premium
-            </button>
-            <button class="badge dark"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>install</button>
-            <i class="fa-regular fa-user" style="cursor: pointer;"></i>
-        </div>
-       </div>
-       <h2>Recently Played</h2>
-       <div class="card-container">
-        <div class="card">
-            <img src="./assests/card1img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-       </div>
-       <h2>Trending Near You</h2>
-       <div class="card-container">
-        <div class="card">
-            <img src="./assests/card2img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card3img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card4img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card3img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card4img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card4img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>        
-       </div>
-       <h2>Most featured</h2>
-       <div class="card-container">
-        <div class="card">
-            <img src="./assests/card5img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card6img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card1img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        <div class="card">
-            <img src="./assests/card6img.jpeg">
-            <p class="name">Top Global</p>
-            <p class="intro">Your daily Update of the most played..</p>
-        </div>
-        
-       </div>
-       <div class="footer">
-        <div class="line"></div>
-       </div>
-    </div>
-    <div class="music-player">
-        <div class="left"> 
-            <img src="./assests/card2img.jpeg" class="img">
-            <div class="temp">
-            <p class="song">Mahiye jinna sohna</p>
-            <p class="artist">Darshan Raval</p>
-        </div>
-        <i class="fa-regular fa-heart heart"></i>
-    </div>
-     <div class="center">
-        <div class="photos">
-        <img src="./assests/player_icon1.png" class="img-icon">
-        <img src="./assests/player_icon2.png" class="img-icon">
-        <img src="./assests/player_icon3.png" class="img-icon" style="opacity: 1; height: 2rem; margin-top: 0.2rem;">
-        <img src="./assests/player_icon4.png" class="img-icon">
-        <img src="./assests/player_icon5.png" class="img-icon"> 
-    </div> 
-    <div class="range">
-        <span>1:56</span>
-        <input type="range" min="00" max="100" class="playback-bar">
-        <span>2:23</span>
-    </div>
-     </div>
-        <div class="right"><img src="./assests/rightt.png" style="height: 2.5rem; align-items: center;" ></div>
+        <div class="music-player">
+            <div class="left">
+                <img alt="img" src="./assests/card2img.jpeg" class="img">
+                <!-- <div class="temp"> -->
+                    <marquee class="song">Mahiye jinna sohna - By Darshan Raval
+                        <i class="fa-regular fa-heart heart"></i>
+                    </marquee>
+                <!-- </div> -->
+            </div>
+            <div class="center">
+                <div class="photos">
+                    <img alt="img" src="./assests/player_icon1.png" class="img-icon">
+                    <img alt="img" src="./assests/player_icon2.png" class="img-icon">
+                    <img alt="img" src="./assests/player_icon3.png" class="img-icon"
+                        style="opacity: 1; height: 2rem; margin-top: 0.2rem;">
+                    <img alt="img" src="./assests/player_icon4.png" class="img-icon">
+                    <img alt="img" src="./assests/player_icon5.png" class="img-icon">
+                </div>
+                <div class="range">
+                    <span>1:56</span>
+                    <input title="Search" type="range" min="00" max="100" class="playback-bar">
+                    <span>2:23</span>
+                </div>
+            </div>
+            <div class="right"><img alt="img" src="./assests/rightt.png" style="height: 2.5rem; align-items: center;">
+            </div>
 </body>
+
 </html>
